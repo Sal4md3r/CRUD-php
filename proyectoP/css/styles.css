@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-image: url("./img/fondo.png"); }
+
+header .principal {
+  background: #000;
+  color: #fff; }
+header .navbar {
+  height: 100px; }
+  header .navbar .nombreE {
+    font-size: 27pt;
+    padding: 3px; }
+  header .navbar li {
+    list-style: none;
+    display: inline-block;
+    margin: 10px;
+    padding: 4px; }
+  header .navbar a {
+    font-size: 20pt;
+    color: #f2f2f2; }
+    header .navbar a:hover {
+      text-decoration: underline;
+      background: #0b49ff;
+      color: #fff; }
+  header .navbar .btnSalir {
+    background: #000;
+    color: #fff;
+    font-size: 20pt; }
+    header .navbar .btnSalir:hover {
+      background: #0b49ff;
+      color: #fff; }
+
+.contendorPrincipal {
+  width: 100%;
+  background: url("./img/fondo.png"); }
+  .contendorPrincipal .textoT {
+    background: #7436d5;
+    padding: 60px;
+    text-align: center;
+    font-size: 30pt;
+    color: #fff; }
+  .contendorPrincipal .principal {
+    background: #4604ad;
+    border-radius: 5px; }
+  .contendorPrincipal .contProc {
+    margin: 20px 0;
+    padding: 20px; }
+    .contendorPrincipal .contProc .cBoton {
+      margin-bottom: 0px;
+      width: 100%;
+      height: 100%; }
+      .contendorPrincipal .contProc .cBoton .a:hover {
+        background: rgba(250, 95, 140, 0.6);
+        border-radius: 5px;
+        text-decoration: underline;
+        color: #000; }
+      .contendorPrincipal .contProc .cBoton .b:hover {
+        background: rgba(95, 128, 250, 0.6);
+        border-radius: 5px;
+        text-decoration: underline;
+        color: #000; }
+      .contendorPrincipal .contProc .cBoton a {
+        margin-top: 10px;
+        font-size: 30pt;
+        color: #fff; }
+        .contendorPrincipal .contProc .cBoton a img {
+          width: 100%;
+          height: 400px; }
+
+.contenedorTabla {
+  background: #290265;
+  color: #fff;
+  text-align: justify;
+  padding: 20px 0;
+  margin: 10px 0; }
+  .contenedorTabla .titulos {
+    border: 2px solid #1b0839;
+    background: #4407a3;
+    text-decoration: underline; }
+  .contenedorTabla .textoFila {
+    background: #4407a3;
+    border: 3px solid #18003d; }
+  .contenedorTabla .textoSec {
+    background: #6131ab;
+    border: 3px solid #18003d; }
+  .contenedorTabla .colBtn {
+    text-align: center; }
+  .contenedorTabla .btn-consulta {
+    background: #0b49ff;
+    color: #fff; }
+    .contenedorTabla .btn-consulta:hover {
+      background: #4407a3;
+      color: #fff; }
+  .contenedorTabla .btn-elimina {
+    background: #dd0123;
+    color: #fff; }
+    .contenedorTabla .btn-elimina:hover {
+      background: #4407a3;
+      color: #fff; }
+
+footer {
+  bottom: 0;
+  width: 100%; }
+  footer .derechos {
+    background: #27292e;
+    color: #fff; }
+    footer .derechos .texto {
+      text-align: center;
+      font-size: 18pt; }
+
+/*# sourceMappingURL=styles.css.map */

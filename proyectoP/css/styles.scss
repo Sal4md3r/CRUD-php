@@ -1,0 +1,14 @@
+*{
+	margin:0;
+	padding: 0;
+}
+
+body{
+	font-family: 'Open Sans', sans-serif;
+	background-image: url("./img/fondo.png");
+
+}
+
+@import 'header';
+@import 'main';
+@import 'footer';
